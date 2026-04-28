@@ -745,4 +745,12 @@
   modalOverlay.addEventListener('click', e => { if (e.target === modalOverlay) closeModal(); });
 
   function closeModal() {
-    modalOverlay.classList.remove('ope
+    modalOverlay.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  // INIT
+  fetchAnime();
+</script>
+</body>
+</html>
